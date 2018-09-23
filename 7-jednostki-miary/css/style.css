@@ -1,0 +1,38 @@
+html {
+    font-size: 20px;
+}
+
+/*div#container {
+    width: 1200px;
+}*/
+
+#container {
+    font-size: 30px;
+}
+
+#container > div {
+    background-color: #ff7900;
+    margin-top: 15px;
+}
+
+#pixels {
+    width: 400px;
+}
+
+/* 1em = wartosc czcionki rodzica przy responsywnosci 
+
+Wielkość czcionki elementu p wynosi 3em, czyli 45px, ponieważ font-size rodzica tego elementu (czyli div) wynosi 15px. Obliczając: 3em = 3 × 15px, jest równe 45px.
+
+*/
+#em {
+    width: 20em;
+}
+
+/*zależne od szerokości strony*/
+#percent {
+    width: 50%;
+}
+/*zależne od wysokości strony*/
+#vh {
+    width: 60vh;
+}
