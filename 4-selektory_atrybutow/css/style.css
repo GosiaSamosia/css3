@@ -1,0 +1,30 @@
+[title] {
+    color: red;
+}
+
+[title="About me"]{
+    color: orange;
+}
+
+[href="#"]{
+    color: violet;
+}
+[title~="Container"] {
+    color: lawngreen;
+}
+
+[title*="tainer"] {
+    background-color: yellow;
+}
+
+[title^="More"] {
+    color:cornflowerblue;
+}
+
+[title*="skills"] {
+    background-color: antiquewhite;
+}
+
+[title]:last-child {
+    background-color: aqua;
+}
