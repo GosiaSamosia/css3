@@ -1,0 +1,45 @@
+/*
+pseudoklasy z jednym ":"
+pseudoelementy z dwoma "::"
+hover - po najechaniu myszką
+focus - aktywny element, obecnie uzupełniany (formularze)
+
+*/
+
+#name:hover {
+    background-color: aquamarine;
+}
+
+#name:focus {
+    color: red;
+}
+
+.customer:last-child {
+    color: lime;
+}
+
+.customer:first-child {
+    font-size: 2em;
+}
+
+.customer:nth-child(3){
+    color:blue;
+}
+
+.customer:nth-last-child(3){
+    color:deeppink;
+}
+
+.customer:nth-last-child(odd){
+    background-color: azure;
+}
+
+/*co 3 od nr4*/
+.customer:nth-child(3n+4){
+    background-color: yellow;
+}
+
+/*co 3 od nr przedostatniego*/
+.customer:nth-child(3n-1){
+    background-color: lawngreen;
+}
