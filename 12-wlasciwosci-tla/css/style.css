@@ -1,0 +1,49 @@
+/*root - domyslna wartosc*/
+
+p{
+    font-size: 2rem;
+    /*font-size: 4vw;*/
+    margin-bottom: 25px;
+}
+
+.bg{
+
+    background: rgba (147,255,67,1) url(../img/obrazek.png) no-repeat 100px 50px;
+    background-size: 500px auto;
+    
+  /*     background-color: rgba(255,200,67,0.5);
+    background-image: url(../img/obrazek.png);
+    background-repeat: no-repeat;
+    background-position: left center; najpierw x potem y
+      background-position: 100px 50px;
+    background-size: cover;
+    background-size: contain;
+    background-size: 200px auto;
+    
+  */
+
+}
+/*
+    background-color: #f35;
+    background-image: url(../img/obrazek.png);
+
+vw-szzerokosc ekranu
+section#about { background-color:white; background-image:url('img/obrazek.png'); background-position:center top; background-size:50% 75%; background-repeat:no-repeat; background-attachment:scroll; }
+*/
+
+/*
+body {
+width=100% auto;
+height=100%;
+background-image: url(img/obrazek.png);
+}
+
+background: linear-gradient(#e66465, #9198e5) no-repeat;
+    width: 100vw;
+    height: 100vh;
+*/
+
+/*
+width=100% auto;
+height=100%;
+*/
