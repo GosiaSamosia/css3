@@ -1,0 +1,48 @@
+/* animation-iteration-count
+animation-name
+ */
+.animate {
+/*     height: 200px;
+    background-color: darkblue;
+    animation-name: resize;
+    animation-duration: 6s;
+    animation-iteration-count: 3;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+     */    
+/* animacja czas trwania czas opoznienia*/
+animation: resize 6s steps(6,end) 2s forwards ;
+}
+
+
+@keyframes resize{
+    0%, 100%{
+        width: 100%;
+        transform: translateX(0px);
+    } 50% {
+        width: 50%;
+        transform: translateX(200px);
+    } 100% {
+        width: 75%;
+        transform: translateX(200px); 
+    
+    /*@keyframes resize{
+    0%, 100%{
+        width: 100%;
+        transform: translateX(0px);
+    } 50% {
+        width: 50%;
+        transform: translateX(200px);
+    }
+    
+    /* rowna sie */
+    
+    @keyframes {
+    0%, {
+        width: 100%;
+    } 50% {
+        width: 50%;
+} 100% {
+    width: 100%;
+}
+}

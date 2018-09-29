@@ -1,0 +1,37 @@
+.transform {
+    position: relative;
+    transition: all 1s;
+}
+
+.transform-rotate:hover {
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+}
+
+.transform-translate:hover {
+    /* transform: translate(100px, 100px); */
+    transform: translateX(200px);
+    transform-origin: 0% 0%;
+}
+
+.transform-translate2:hover {
+    transform: translate(100px, 100px);
+    transform-origin: 0% 0%;
+}
+
+.transform-scale:hover {
+    transform-origin: 0% 0%;
+    transform: scale(-2);
+}
+
+.center {
+    width: 30%;
+    height: 30%;
+    z-index: 3;
+    background-color: aquamarine;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    /*procenty mierzone od elementu*/
+}
