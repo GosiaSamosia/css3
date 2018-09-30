@@ -2,9 +2,9 @@
 animation-name
  */
 .animate {
-/*     height: 200px;
+     height: 200px;
     background-color: darkblue;
-    animation-name: resize;
+   /* animation-name: resize;
     animation-duration: 6s;
     animation-iteration-count: 3;
     animation-delay: 2s;
