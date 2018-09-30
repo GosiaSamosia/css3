@@ -1,0 +1,21 @@
+.flex-item {
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color:beige;
+    flex-grow: 1;
+    flex-shrink: 15;
+    flex-basis: 20%;
+    line-height: 30px;
+}
+
+.flex-item:nth-of-type(2n) {
+    background-color:bisque;
+    flex-shrink: 2;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+ /*    flex-wrap: wrap; */
+}

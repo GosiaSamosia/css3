@@ -1,0 +1,20 @@
+.flex-item {
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color:beige;
+    flex-basis: 20%;
+/*     height: 360px; */
+}
+
+.flex-item:nth-of-type(2n) {
+    background-color:bisque;
+    height: 450px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch;
+}
